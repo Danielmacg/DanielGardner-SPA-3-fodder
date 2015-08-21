@@ -1,0 +1,100 @@
+.mainWrapper {
+
+height: 800px;
+
+}
+
+body {
+ margin: 0;
+ background-image: url(img/background.jpg);
+ background-size: 1440px 800px;
+ background-repeat:no-repeat;
+ display: compact;
+ font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+.header {
+
+	height: 150px;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: red;
+	font-style: 28px;
+}
+
+.btn-[primary]
+
+}
+.btn {
+    /*padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;*/
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+.btn-primary:hover{
+	 background: blue;
+    color: blue;
+}
+
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+
+
+..
+.btn-primary:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #33a6cc;
+}
+.btn-default:hover{
+	 background: green;
+    color: blue;
+}
+
+ 
+.btn-default:active, .btn-default.active {
+    background: #blue;
+    box-shadow: none;
+}
+
+.content {
+   background:#fff;
+   padding-top:2em;
+}
+.home .content {
+   padding-top:0;
+}
+
+.main { }
+.page-header {
+   margin: 10px 0 20px 0;
+   background: #222;
+   padding: 5px;
+   border-radius: 5px;
+}
+.page-header h1 {
+   color:#fff;
+   margin:0;
+}
+.page-header h1:before {
+   content:  "\00bb";
+}
+
